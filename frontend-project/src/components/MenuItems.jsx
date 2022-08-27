@@ -2,22 +2,27 @@ const MenuItems=[
   {
     title:'HOME',
     path:'/',
-    cName:'dropdown-list1'
+    cName:'dropdown-list1',
+    span:'home'
   },
   {
     title:'ABOUT US',
     path:'/about-us',
-    cName:'dropdown-list2'
+    cName:'dropdown-list2',
+    span:'about-us'
   },
   {
     title:'OUR WORK',
     path:'/our-work',
-    cName:'dropdown-list3'
+    cName:'dropdown-list3',
+    span:'our-work'
+
   },
   {
     title:'CONTACT',
     path:'/contact',
-    cName:'dropdown-list4'
+    cName:'dropdown-list4',
+    span:'contact'
   }
 ]
 

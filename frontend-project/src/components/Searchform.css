@@ -1,6 +1,7 @@
 .searcform {
    display: flex;
    justify-content: center;
+   
 }
 .search-input{
    padding: 6px 0px;
@@ -9,5 +10,6 @@
    outline: none;
    justify-content: center;
    display:flex;
+   margin-left: 30px;
    
 }

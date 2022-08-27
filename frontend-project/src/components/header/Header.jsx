@@ -10,20 +10,24 @@ const Header = () => {
       <div className="header">
         <img src="./images/masina.jpg" alt="masina" className='img1' />
         <div className="text">
+          <div className="text-box">
             <h2>Lorem ipsum</h2>
             <p className='p'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, similique rem? Neque.
             </p>
+          </div>
             <div className="btn">
             <button>SHOW MORE</button>
             </div>
         </div>
         <img src="./images/obala.jpg" alt="obala"  className='img1'/>
           <div className="text">
+            <div className="text-box">
             <h2>Lorem ipsum</h2>
             <p className='p'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, similique rem? Neque.
             </p>
+            </div>
             <div className="btn">
             <button>SHOW MORE</button>
             </div>

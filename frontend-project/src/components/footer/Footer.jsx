@@ -8,6 +8,7 @@ import MenuItems from '../MenuItems'
 const Footer = () => {
   return (
     <div className='footer'>
+    <ul className='footer-ul-icons'>
         <div className="footer-icons">
             <FaIcons.FaFacebookF className='ft-icons'/>
         </div>
@@ -16,20 +17,21 @@ const Footer = () => {
         </div>
         <div className="footer-icons">
             <MdIcons.MdEmail className='ft-icons'/>
-        </div>
+        </div> 
+     </ul>
         <ul className='footer-ul'>
            {MenuItems.map((item,index)=>{
               return(
                 <li  key={index} className='footer-list'>
                     <Link to={item.path} className='footer-links'>
-                         <span>{item.title}</span>
+                         <span className={item.span}>{item.title}</span>
                     </Link>
                 </li>
               )
            })}
         </ul>
         <div className="footer-icons">
-            
+               <FaIcons.FaLongArrowAltUp className='ft-icons'/>
         </div>
     </div>
   )
