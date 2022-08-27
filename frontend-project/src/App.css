@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --lightgreen: rgb(121, 141, 33) ;
+  --darkgreen: rgb(97, 177, 22);
+  --lightblue:rgb(32, 102, 167);
+  --darkblue:rgb(3, 96, 184);
+
+}

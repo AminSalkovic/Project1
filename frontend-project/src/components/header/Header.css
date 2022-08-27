@@ -1,0 +1,39 @@
+.preheader{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.header{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.img1{
+   width: 48%;
+   border: 1px solid black;
+  height: 48%;
+}
+.text1{
+    width: 48%;
+    border: 1px solid black;
+    height: 48%; 
+}
+
+.text2{
+    width: 48%;
+    border: 1px solid black;
+   height: 48%;
+}
+.p{
+    font-size: 22px;
+}
+.header button{
+    margin-left: 100px;
+}
+
