@@ -1,0 +1,32 @@
+.dropdown{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+}
+.dropdown ul{
+    list-style: none;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+.dropdown li{
+    width: 100%;
+    padding: 8px 0px;
+    margin-top: 2px;
+}
+.dropdown-list1{
+    background-color: var(--lightgreen);
+}
+.dropdown-list2{
+    background-color: var(--darkgreen);
+}
+.dropdown-list3{
+    background-color: var(--lightblue);
+}
+.dropdown-list4{
+    background-color: var(--darkblue);
+}
