@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fronted-project/static/css/main.ae2e432e.css",
+    "main.js": "/fronted-project/static/js/main.64bf6841.js",
+    "index.html": "/fronted-project/index.html",
+    "main.ae2e432e.css.map": "/fronted-project/static/css/main.ae2e432e.css.map",
+    "main.64bf6841.js.map": "/fronted-project/static/js/main.64bf6841.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae2e432e.css",
+    "static/js/main.64bf6841.js"
+  ]
+}
